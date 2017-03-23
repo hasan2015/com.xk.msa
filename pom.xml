@@ -5,12 +5,14 @@
 	<artifactId>com.xk.msa</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>msa</name>
+	<name>com.xk.msa</name>
 	<modules>
-		<module>../com.xk.msa.framework</module>
-		<module>../com.xk.msa.ui</module>
 		<module>../com.xk.msa.api.crservice</module>
+		<module>../com.xk.msa.caservice</module>
 		<module>../com.xk.msa.config</module>
+		<module>../com.xk.msa.framework</module>
+		
+		<module>../com.xk.msa.ui.crservice</module>
 	</modules>
 	<!-- -->
 	<parent>
